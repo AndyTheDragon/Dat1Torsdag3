@@ -11,6 +11,6 @@ void setup() {
                     "Fight the Power",
                     "Lose Yourself"};
   for (int i=0; i<topRappers.length; i++) {
-    println(i+1 +". " + topRappers[i] +" : " + topHits[i]);
+    println(i+1 +". " + topRappers[i] +" : \"" + topHits[i] +"\"");
   }
 }
