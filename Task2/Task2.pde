@@ -1,7 +1,7 @@
 //Task 2: print et udsnit af et ord
 void printPartofWord(String ord, int start, int slut) {
-  if (start>slut || start<0 ) {
-    print("Error, start skal være mindre end slut, og start skal være positiv.");
+  if (start>slut || start<0 || start>=ord.length()) {
+    println("Error, start skal være mindre end slut, og start skal være positiv.");
   } else {
     println(ord.substring(start, slut));
   }
